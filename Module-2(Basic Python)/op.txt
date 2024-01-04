@@ -1,0 +1,3 @@
+Prev bal val: 3000
+Balance  after bye: Sunglass 2000
+2000
