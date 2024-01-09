@@ -1,22 +1,13 @@
-list = []
+class A:
+    def __init__(self, value):
+        value = 3
+        self.value = value
+    def change(self):
+        self.value = 12
 
-a = dict(name = 'niloy', age = 23, is_student = True)
-b = dict(name = "Nabid", age = 22, is_student = False)
-x = dict(name = "Sunny", age = 18, is_student = True)
-c = dict(name = "Mow", age = 23, is_student = True)
-
-list.append(a)
-list.append(b)
-list.append(x)
-list.append(c)
-get_idx = -1
-for ele in list:
-    if ele["name"] == "Sunny":
-        get_idx += 1
-        break
-    else:
-        get_idx += 1
-print(get_idx)
-
-list.remove(list[get_idx])
-print(list)
+ans = []
+let = A(13)
+ans.append(let.value)
+let.change()
+ans.append(let.value)
+print(ans)
