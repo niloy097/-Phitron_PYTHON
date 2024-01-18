@@ -1,0 +1,26 @@
+I want to creat a Baraz Shopping Platform app--->
+first page---(home page)
+**componets will be
+    i. log in (as Admin, as seller, as buyer, delivary man)
+        Admin: will monitor everything
+                * seller product selling and it's request
+                * product visiblity (from sellers shop)
+                * stock maintaining
+                * commisions calculation from the seller
+        
+        Seller: *Sellers request to visible his catagory product to baraz Admin(condition will be provided about
+                commisions and other terms and condition)
+        
+
+        Buyer:  * Can see all catagory products provided by sellers
+                * Can choose product and add to cart catagory wise
+                * Can order the choosen product
+                * Can pay via multiple methods
+                * Give review about product
+                * Can return the product
+                * Can track the product route
+        
+Delivary Man:   * Will Take the order by from Admin
+                * Take the wrapped product
+                * Can delivary the product to customer
+                * receive cash and ready for the next delivary
